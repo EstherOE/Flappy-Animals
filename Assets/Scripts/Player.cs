@@ -31,10 +31,10 @@ public class Player : MonoBehaviour
     void Update()
 	{
 		
-		if(GameManager.instance.hasStarted==true){
+		
         PlayerMoveKeyboard();
 		
-		}
+		
     }
 
     

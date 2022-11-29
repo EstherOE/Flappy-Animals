@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 		ScoreText.text = "Score : "+ scoreInt;
 	
 		CountDown= true;
-		
+		/*
 		//Count();
 		if (CountDown)
 		{
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
 		else
 		{
 			hasStarted = true;
-		}
+		}*/
 	}
 	
 	IEnumerator StartCountDown()

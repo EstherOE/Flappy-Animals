@@ -13,7 +13,7 @@ public class SpawnManager : MonoBehaviour
 
 	private void Update()
 	{
-		if(GameManager.instance.hasStarted==true){
+		
 		_elapsedTime += Time.deltaTime;
 
 		if (_elapsedTime > _time)
@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour
 
 			_elapsedTime = 0f;
 		}
-		}
+		
 	}
 	
 	private void SpawnObject()
